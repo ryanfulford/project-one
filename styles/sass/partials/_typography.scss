@@ -1,0 +1,26 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Kumar+One+Outline&family=Lato:wght@400;700&display=swap');
+
+// font-family: 'Kumar One', cursive;
+// font-family: 'Kumar One Outline', cursive;
+// font-family: 'Lato', sans-serif;
+
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: $body-font;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h1 {
+  font-family: $title-font;
+}
+
+h2, h3, h4, button {
+  font-family: $base-font;
+}
