@@ -1,0 +1,13 @@
+header {
+  background-image: url(../images/header-home.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+    .header-image {
+      width: 66%;
+        img {
+          position: relative;
+          top: -2px;
+          right: 120px;
+        }
+    }
+}

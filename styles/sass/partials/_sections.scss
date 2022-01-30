@@ -1,0 +1,109 @@
+.materials {
+  margin: 100px 0;
+    .materials-container {
+      display: flex;
+      justify-content: space-between;
+        .materials-content {
+          width: calc(68% - 40px);
+          margin-right: 20px;
+        }
+        .materials-image {
+          width: calc(32% - 40px);
+          margin-left: 20px;
+            img {
+              box-shadow: -15px 15px $accent;
+            }
+        }
+    }
+}
+
+.gallery {
+  background-color: $primary;
+  padding: 100px 0;
+  .gallery-images {
+    display: flex;
+    justify-content: space-between;
+      .gallery-image-one {
+        margin-right: 10px;
+      }
+      .gallery-image-two {
+        margin: 0 20px;
+      }
+      .gallery-image-three {
+        margin-left: 10px;
+      }
+      .gallery-img {
+        width: calc(33.3% - 20px);
+      }
+  }
+}
+
+.about {
+  padding: 75px 0;
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+      .about-flex {
+        display: flex;
+        width: 50%;
+        padding: 15px 0;
+          .about-icon {
+            font-size: 25px;
+            padding: 8px 0;
+              i {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                background-color: $accent;
+                margin-top: -10px;
+              }
+          }
+          .about-title {
+            padding: 0 8px;
+          }
+      }
+  }
+}
+
+.articles {
+  background-color: $primary;
+    .articles-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+        .article-flex {
+          width: calc(50% - 20px);
+          margin: 10px 0;
+        }
+        .article-image-one {
+          position: relative;
+          bottom: 30px;
+            img {
+              box-shadow: 15px 15px $accent;
+            }
+        }
+        .article-one {
+          padding: 50px 20px;
+        }
+        .article-two {
+          padding: 50px 19px;
+          text-align: right;
+        }
+        .article-image-two {
+          position: relative;
+          top: 45px;
+          left: 20px;
+            img {
+              box-shadow: -15px 15px $accent;
+            }
+      }
+    }
+}
+
+.style-text {
+  text-align: center;
+  padding: 100px 0;
+}

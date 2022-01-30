@@ -1,0 +1,27 @@
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+    ul {
+      display: flex;
+      list-style: none;
+        li {
+          padding: 0 20px;
+          a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: $body-font;
+            font-weight: 700;
+            font-size: 1rem;
+            text-align: center;
+            line-height: 29px;
+            letter-spacing: 1.4px;
+            color: $black;
+
+            &:hover {
+              border-bottom: 3px solid $accent;
+            }
+          }   
+        }
+    }
+}
+
