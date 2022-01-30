@@ -454,19 +454,17 @@ header .header-image img {
   -webkit-box-shadow: 15px 15px #F8FB05;
           box-shadow: 15px 15px #F8FB05;
 }
-.articles .articles-container .article-one {
-  padding: 50px 20px;
-}
+.articles .articles-container .article-one,
 .articles .articles-container .article-two {
   padding: 50px 19px;
+}
+.articles .articles-container .article-two {
   text-align: right;
 }
-.articles .articles-container .article-image-two {
+.articles .articles-container .article-img-two {
   position: relative;
   top: 45px;
-  left: 20px;
-}
-.articles .articles-container .article-image-two img {
+  left: 18px;
   -webkit-box-shadow: -15px 15px #F8FB05;
           box-shadow: -15px 15px #F8FB05;
 }

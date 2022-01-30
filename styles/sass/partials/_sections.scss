@@ -85,20 +85,18 @@
               box-shadow: 15px 15px $accent;
             }
         }
-        .article-one {
-          padding: 50px 20px;
-        }
+        .article-one,
         .article-two {
           padding: 50px 19px;
+        }
+        .article-two {
           text-align: right;
         }
-        .article-image-two {
+        .article-img-two {
           position: relative;
           top: 45px;
-          left: 20px;
-            img {
-              box-shadow: -15px 15px $accent;
-            }
+          left: 18px;
+          box-shadow: -15px 15px $accent;
       }
     }
 }
