@@ -10,9 +10,9 @@
 <body>
   
   <!-- Header -->
-  <header>
+  <header class="blog-header">
     <div class="wrapper">
-      <nav class="nav-bar">
+      <nav class="nav-bar-blog">
         <h3>Sanctuary Helpers</h3>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -29,9 +29,9 @@
   <!-- Header END -->
 
   <!-- Main -->
-  <main>
+  <main class="blog" id="blog">
 
-      <div class="wrapper blog" id="blog">
+      <div class="wrapper">
         <!-- Main Flex Container (Blog + Aside Sections) -->
         <div class="blog-container">
           <!-- Blog Section w/ Blog Post, Comments, and Form -->
@@ -57,7 +57,7 @@
             </section>
 
             <section class="blog-comments">
-              <h2>Comments</h2>
+              <h2>Comments:</h2>
 
               <div class="comment-flex comment-one">
                 <div class="comment-image comment-one-image">
@@ -84,20 +84,20 @@
               <div class="form-info">
                 <div class="user-name user-info">
                   <label for="name">Name</label>
-                  <input type="text" id="name" name="name">
+                  <input type="text" id="name" name="name" required>
                 </div>
                 <div class="user-email user-info">
-                  <label for="email">Email Address</label>
-                  <input type="text" id="email" name="email">
+                  <label for="e-mail">Email Address</label>
+                  <input type="email" id="e-mail" name="e-mail" required>
                 </div>
               </div>
 
               <div class="form-comment">
-                <label for="comment">Comment</label>
-                <textarea type="text" name="comment" id="comment" cols="30" rows="10">Comment</textarea>
+                <label for="comment" class="sr-only">Comment</label>
+                <textarea type="text" name="comment" id="comment" placeholder="Comment" required></textarea>
               </div>
 
-              <button>Post Comment</button>
+              <button type="submit">Post Comment</button>
             </form>
           </div> <!-- .blog-section END -->
 
@@ -107,9 +107,11 @@
                 <img src="./images/sidebar-image.jpg" alt="">
               </div>
               <div class="aside-text">
+                <h3>Our Mission</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum incidunt ea quae reiciendis totam labore?</p>
               </div>
               <div class="aside-list">
+                <h3>Recent Posts</h3>
                 <ul>
                   <li>
                     <p>Lorem ipsum dolor sit.</p>

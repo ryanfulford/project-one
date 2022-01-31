@@ -272,6 +272,19 @@ button {
   padding: 10px 15px 3px;
 }
 
+.nav-bar-blog h3 {
+  width: 25%;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  padding-top: 20px;
+}
+
+.blog-header h1 {
+  margin-left: 0;
+  padding: 8rem 0;
+}
+
 .wrapper {
   max-width: 1200px;
   width: 90%;
@@ -307,7 +320,15 @@ header .header-image img {
   right: 120px;
 }
 
-.nav-bar {
+.blog-header {
+  background-image: url(../images/blog-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.nav-bar,
+.nav-bar-blog {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,16 +336,19 @@ header .header-image img {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.nav-bar ul {
+.nav-bar ul,
+.nav-bar-blog ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
-.nav-bar ul li {
+.nav-bar ul li,
+.nav-bar-blog ul li {
   padding: 0 20px;
 }
-.nav-bar ul li a {
+.nav-bar ul li a,
+.nav-bar-blog ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Lato";
@@ -335,8 +359,18 @@ header .header-image img {
   letter-spacing: 1.4px;
   color: #151514;
 }
-.nav-bar ul li a:hover {
+.nav-bar ul li a:hover,
+.nav-bar-blog ul li a:hover {
   border-bottom: 3px solid #F8FB05;
+}
+
+.nav-bar-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .materials {
@@ -472,6 +506,166 @@ header .header-image img {
 .style-text {
   text-align: center;
   padding: 100px 0;
+}
+
+.blog {
+  background-color: #E0FDDF;
+}
+.blog .blog-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.blog .blog-container .blog-section {
+  width: 75%;
+  position: relative;
+  top: -4rem;
+  right: 5rem;
+}
+.blog .blog-container .blog-section .blog-image {
+  position: relative;
+  right: 1rem;
+  background-color: #F5F5F5;
+}
+.blog .blog-container .blog-section .blog-image img {
+  -webkit-box-shadow: 15px 15px #F8FB05;
+          box-shadow: 15px 15px #F8FB05;
+}
+.blog .blog-container .blog-section .blog-text {
+  background-color: #F5F5F5;
+  padding: 2.5rem 1.5rem 2rem 6rem;
+  width: 45.75rem;
+  position: relative;
+  right: 1rem;
+  border-right: 3px solid #F8FB05;
+  border-bottom: 3px solid #F8FB05;
+}
+.blog .blog-container .blog-section .blog-text .blog-author {
+  font-style: italic;
+}
+.blog .blog-container .blog-section .blog-text .blog-author span {
+  font-style: normal;
+  font-weight: bold;
+}
+.blog .blog-container .blog-section .blog-comments {
+  padding: 2.5rem 5rem;
+}
+.blog .blog-container .blog-section .blog-comments h2 {
+  font-size: 1.1rem;
+}
+.blog .blog-container .blog-section .blog-comments .comment-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0;
+}
+.blog .blog-container .blog-section .blog-comments .comment-image {
+  width: 100%;
+  height: 100%;
+}
+.blog .blog-container .blog-section .blog-comments .comment-text h3 {
+  font-family: "Lato";
+  font-size: 1rem;
+  margin-top: -18px;
+}
+.blog .blog-container .blog-section .blog-comments .comment-text p {
+  margin-top: 0;
+}
+.blog .blog-container .blog-section .blog-comments .comment-two-text {
+  position: relative;
+  right: 3rem;
+}
+.blog .blog-container .aside-section {
+  width: 25%;
+  position: relative;
+  left: 6rem;
+}
+.blog .blog-container .aside-section .aside-container {
+  background-color: #F8FB05;
+  margin-top: 9rem;
+  padding: 17rem 2rem 2rem;
+  position: relative;
+}
+.blog .blog-container .aside-section .aside-container .aside-image {
+  position: absolute;
+  width: 96%;
+  height: 17rem;
+  top: -1rem;
+  left: 0.6rem;
+}
+.blog .blog-container .aside-section .aside-container .aside-text {
+  width: 125%;
+}
+.blog .blog-container .aside-section .aside-container .aside-text,
+.blog .blog-container .aside-section .aside-container .aside-list {
+  position: relative;
+  right: 1.2rem;
+}
+.blog .blog-container .aside-section .aside-container .aside-text h3,
+.blog .blog-container .aside-section .aside-container .aside-list h3 {
+  font-size: 1.1rem;
+}
+.blog .blog-container .aside-section .aside-container .aside-list {
+  width: 102%;
+}
+.blog .blog-container .aside-section .aside-container .aside-list ul {
+  padding-left: 1.5rem;
+  margin: 0;
+}
+.blog .blog-container .aside-section .aside-container .aside-list ul p {
+  width: 125%;
+  margin: 0;
+}
+
+form {
+  margin-left: 5rem;
+}
+form .form-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+form .form-info .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+}
+form .form-info .user-info label {
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+}
+form .form-info .user-info input[type=text],
+form .form-info .user-info input[type=email] {
+  border: none;
+  border-bottom: 2px solid #065635;
+  background-color: #E0FDDF;
+}
+form .form-comment textarea {
+  width: 100%;
+  height: 10rem;
+  resize: none;
+  border: 2px solid #065635;
+  padding: 1.5rem;
+  background-color: #E0FDDF;
+  font-family: "Lato";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+form button {
+  width: 100%;
+  margin-top: 1.5rem;
 }
 
 footer {

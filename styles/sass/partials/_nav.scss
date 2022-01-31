@@ -1,4 +1,5 @@
-.nav-bar {
+.nav-bar,
+.nav-bar-blog {
   display: flex;
   justify-content: flex-end;
     ul {
@@ -23,5 +24,10 @@
           }   
         }
     }
+}
+
+.nav-bar-blog {
+  display: flex;
+  justify-content: space-between;
 }
 
