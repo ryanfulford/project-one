@@ -38,3 +38,34 @@ form {
       margin-top: 1.5rem;
   }
 }
+
+.contact-page-form {
+  background-color: $secondary;
+  position: relative;
+  top: -7.5rem;
+  right: 3rem;
+}
+
+.contact-form {
+  margin-left: 0;
+  padding: 4rem 3rem;
+  box-shadow: 15px 15px $accent;
+  .form-info {
+    .user-info {
+      input[type="text"],
+      input[type="email"] {
+        border: none;
+        border-bottom: 2px solid $interact;
+        background-color: $secondary;
+      }
+    }
+  }
+}
+
+.contact-form {
+  .form-comment {
+    textarea {
+      background-color: $secondary;
+    }
+  }
+}

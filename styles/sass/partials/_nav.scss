@@ -1,5 +1,6 @@
 .nav-bar,
-.nav-bar-blog {
+.nav-bar-blog,
+.nav-bar-contact {
   display: flex;
   justify-content: flex-end;
     ul {
@@ -26,7 +27,8 @@
     }
 }
 
-.nav-bar-blog {
+.nav-bar-blog,
+.nav-bar-contact {
   display: flex;
   justify-content: space-between;
 }

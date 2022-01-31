@@ -11,9 +11,9 @@
 <body>
 
   <!-- Header -->
-  <header>
+  <header class="contact-header">
     <div class="wrapper">
-      <nav class="nav-bar">
+      <nav class="nav-bar-contact">
         <h3>Sanctuary Helpers</h3>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -30,7 +30,7 @@
   <!-- Header END -->
 
   <!-- Main -->
-  <main>
+  <main class="contact-page" id="contact-page">
     <div class="wrapper">
       <div class="contact-container">
         <div class="contact-page-form">
@@ -38,20 +38,20 @@
             <div class="form-info">
               <div class="user-name user-info">
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" required>
               </div>
               <div class="user-email user-info">
-                <label for="email">Email Address</label>
-                <input type="text" id="email" name="email">
+                <label for="e-mail">Email Address</label>
+                <input type="text" id="e-mail" name="e-mail" required>
               </div>
             </div>
           
-            <div class="form-comment">
-              <label for="comment">Comment</label>
-              <textarea type="text" name="comment" id="comment" cols="30" rows="10">Comment</textarea>
+            <div class="form-comment contact-page-comment">
+              <label for="comment" class="sr-only">Comment</label>
+              <textarea type="text" name="comment" id="comment" placeholder="Message" required></textarea>
             </div>
           
-            <button>Post Comment</button>
+            <button type="submit">Submit</button>
           </form>
         </div>
 
@@ -74,7 +74,7 @@
           </aside>
 
           <div class="contact-us">
-            <p><a href="mailto:info@email.com">info@email.com</a></p>
+            <p class="email-info"><a href="mailto:info@email.com" class="email-link">info@email.com</a></p>
 
             <p>123 - 456 - 7890</p>
             <p>123 Queen Street West,</p>

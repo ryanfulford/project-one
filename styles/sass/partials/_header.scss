@@ -18,3 +18,11 @@ header {
   background-repeat: no-repeat;
   width: 100%
 }
+
+.contact-header {
+  background-image: url(../images/contact-image.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 71vh;
+  background-color: $primary;
+}

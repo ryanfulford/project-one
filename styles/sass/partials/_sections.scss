@@ -110,6 +110,7 @@
 
 
 // BLOG PAGE Sections
+
 .blog {
   background-color: $primary;
   .blog-container {
@@ -175,6 +176,7 @@
                 }
           }
       }
+      
       // Aside Section
       .aside-section {
         width: 25%;
@@ -218,3 +220,48 @@
       }
   }
 }
+
+
+// CONTACT PAGE Sections
+
+// Contact Page Form
+.contact-page {
+    background-color: $primary;
+    .contact-container {
+      display: flex;
+      justify-content: space-between;
+        .contact-page-form {
+          width: 74%;
+        }
+        .contact-info {
+          width: 26%;
+          margin-top: 4rem;
+            .contact-socials {
+              display: flex;
+              margin-left: 1rem;
+                .contact-icon {
+                  a {
+                    color: $interact;
+                    padding: 0.5rem 0.7rem;
+                  }
+                }
+            }
+            .contact-us {
+              margin-left: 1rem;
+                .email-info {
+                  padding: 1.2rem 0.7rem;
+                }
+                .email-link {
+                  text-decoration: none;
+                  color: $black;
+                  padding: 0.5rem 0;
+                }
+                p {
+                  margin: 0;
+                  padding: 0 0.7rem;
+                }
+            }
+        }
+    }
+}
+

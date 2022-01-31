@@ -50,7 +50,8 @@ button {
   padding: 10px 15px 3px;
 }
 
-.nav-bar-blog {
+.nav-bar-blog,
+.nav-bar-contact {
   h3 {
       width: 25%;
       font-size: 22px;
@@ -60,9 +61,16 @@ button {
     }
 }
 
-.blog-header {
+.blog-header,
+.contact-header {
   h1 {
     margin-left: 0;
     padding: 8rem 0;
+  }
+}
+
+.contact-header {
+  h1 {
+    padding: 6rem 0;
   }
 }
