@@ -18,8 +18,7 @@
             line-height: 29px;
             letter-spacing: 1.4px;
             color: $black;
-
-            &:hover {
+            &:hover, &:focus {
               border-bottom: 3px solid $accent;
             }
           }   
@@ -28,8 +27,65 @@
 }
 
 .nav-bar-blog,
-.nav-bar-contact {
+.nav-bar-contact,
+.nav-mobile {
   display: flex;
   justify-content: space-between;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.nav-bar-dropdown {
+  background: $primary;
+	height: 50%;
+	width: 25%;
+	position: fixed;
+	top: 0;
+	right: -30%;
+  margin: 0;
+  padding: 0;
+	z-index: 10;
+	transition: all 0.5s;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+    a {
+      // border-bottom: 1px solid $black;
+      display: inline-block;
+      font-size: 1rem;
+      text-transform: uppercase;
+      width: 100%;
+      padding: 0.5rem;
+      text-decoration: none;
+      transition: all 0.5s;
+      color: $black;
+      &:hover, &:focus{
+        color: $secondary;
+        background-color: $interact;
+        transition: all 0.5s;
+      }
+    }
+}
+
+input[type="checkbox"]:checked + .nav-bar-dropdown {
+	right: 0;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+label[for="toggle"] {
+	position: fixed;
+	top: 0.5rem;
+	left: 0.5rem;
+	color: $black;
+  z-index: 10;
+    i {
+      font-size: 1.5rem;
+    }
 }
 

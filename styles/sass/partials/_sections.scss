@@ -1,7 +1,7 @@
 // HOME PAGE Sections
 
 .materials {
-  margin: 100px 0;
+  margin: 5rem 0;
     .materials-container {
       display: flex;
       justify-content: space-between;
@@ -14,6 +14,8 @@
           margin-left: 20px;
             img {
               box-shadow: -15px 15px $accent;
+              width: 100%;
+              height: auto;
             }
         }
     }

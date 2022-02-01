@@ -1,5 +1,151 @@
+// ***** 
+// Potrait tablets and small desktops
+// *****
+@media (max-width: 940px) {
+
+  // HOME PAGE Styles
+
+  // Header Styles
+  header {
+    h1 {
+      font-size: 2.2rem;
+      margin: -1rem 0 0 6rem;
+      // margin-left: 6rem;
+      line-height: 2.7rem;
+    }
+    .header-image {
+      img {
+        top: -1rem;
+        right: 2.4rem;
+        width: 95%;
+      }
+    }
+  }
+
+  // Materials Styles
+  .materials {
+    margin: 3rem 0;
+      .materials-content {
+        h2 {
+          font-size: 1.2rem;
+        }
+      }
+      .materials-image {
+        display: flex;
+        align-items: center;
+      }
+  }
+
+  // About Styles
+  .about-container {
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+
+  // Articles Styles
+.articles {
+  .articles-container {
+    .article-image-one,
+    .article-image-two {
+      img {
+        height: auto;
+      }
+    }
+    .article-image-one {
+      bottom: 35px;
+    }
+    .article-image-two {
+        img {
+          width: 96%;
+          top: 110px;
+        }
+    }
+    .article-one,
+    .article-two {
+      padding: 25px 0;
+        h2 {
+          font-size: 1.2rem;
+        }
+        p {
+          margin: 5px 0 15px;
+        }
+     }
+  }
+}
+
+// Style Section Styles
+.style {
+  .style-text {
+    padding: 3rem 0;
+      h2 {
+        font-size: 1.2rem;
+      }
+  }
+}
+// END Home Page Styles
+
+// BLOG PAGE Styles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// END Blog Page Styles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   .nav-desktop {
     display: none;
   }
+  .nav-mobile {
+    display: contents;
+  }
+} 
 }
+
+// header {
+//   h1 {
+//     font-family: $base-font;
+//     width: 25%;
+//     font-size: 22px;
+//     line-height: 24px;
+//     letter-spacing: 1.2px;
+//     padding-top: 20px;
+//     margin-left: 4.5rem;
+//   }
+//   .header-image {
+//     img {
+//       top: 1.5rem;
+//       right: 2rem;
+//     }
+//   }
+// }
