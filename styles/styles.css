@@ -926,6 +926,10 @@ footer p {
     margin-left: 3.8rem;
     right: 2.9rem;
   }
+  .blog .blog-container .blog-section .blog-comments .comment-text h3 {
+    line-height: 2rem;
+    margin-top: -0.5rem;
+  }
   .blog .blog-container .aside-section {
     left: 2.4rem;
   }
@@ -1152,9 +1156,11 @@ footer p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-left: 0;
   }
   .contact-page .contact-container .contact-info .contact-us {
     text-align: center;
+    margin: 0 0 2rem 0;
   }
 }
 @media (max-width: 940px) and (max-width: 768px) and (max-width: 480px) {
@@ -1221,7 +1227,7 @@ footer p {
     right: 0;
   }
   .contact-page .contact-container .contact-info {
-    margin: -15rem 0 2rem;
+    margin: -15rem 0 1rem;
   }
 
   .contact-form {

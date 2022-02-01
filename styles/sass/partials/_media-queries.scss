@@ -117,6 +117,12 @@
           margin-left: 3.8rem;
           right: 2.9rem;
         }
+        .comment-text {
+          h3 {
+            line-height: 2rem;
+            margin-top: -0.5rem;
+          }
+        }
       }
     }
     .aside-section {
@@ -370,9 +376,11 @@
         width: 100%;
           .contact-socials {
             justify-content: center;
+            margin-left: 0;
           }
           .contact-us {
             text-align: center;
+            margin: 0 0 2rem 0;
           }
       }
   }
@@ -477,7 +485,7 @@
         right: 0;
       }
       .contact-info {
-        margin: -15rem 0 2rem;
+        margin: -15rem 0 1rem;
       }
     }
   }
@@ -500,24 +508,10 @@
         }
     }
   }
-
-
-
-
-
   // END Contact Page Styles
-
-
-
-
-
-
-
 
   }
   
-  
-
   footer {
     p {
       font-size: 0.8rem;
