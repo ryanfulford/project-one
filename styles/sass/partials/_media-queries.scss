@@ -1,5 +1,5 @@
 // ***** 
-// Potrait tablets and small desktops
+// Potrait Tablets and Small Desktops
 // *****
 @media (max-width: 940px) {
 
@@ -10,7 +10,6 @@
     h1 {
       font-size: 2.2rem;
       margin: -1rem 0 0 6rem;
-      // margin-left: 6rem;
       line-height: 2.7rem;
     }
     .header-image {
@@ -144,31 +143,25 @@
 
 
 // CONTACT PAGE Styles
-
-
-
-
-
+.contact-page {
+  .contact-container {
+    .contact-page-form {
+      width: 70%;
+      top: -15.5rem;
+      right:1rem;
+    }
+    .contact-info {
+      width: 28%;
+      margin-top: -10rem;
+    }
+  }
+}
 // END Contact Page Styles
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// *****
+// Landscape Phone to Portrait Tablet
+// *****
 
 @media (max-width: 768px) {
   .nav-desktop {
@@ -177,23 +170,214 @@
   .nav-mobile {
     display: contents;
   }
-} 
+
+  // HOME PAGE Styles
+
+  // Header Styles
+  .header-image {
+    h1 {
+      font-family: $base-font;
+      width: 25%;
+      font-size: 1.1rem;
+      line-height: 1.2rem;
+      letter-spacing: 1.2px;
+      padding-top: 1.75rem;
+      margin-left: 4.5rem;
+    }
+    .header-image {
+      img {
+        top: 1.5rem;
+        right: 2rem;
+      }
+    }
+  }
+
+  // Materials Styles
+  .materials {
+    .materials-container {
+      flex-direction: column-reverse;
+        .materials-content {
+          width: 70%;
+          margin: 1.5rem auto;
+          text-align: center;
+          h2 {
+            font-size: 1rem;
+            line-height: 1.75rem;
+          }
+          p {
+            margin: 0.5rem 0;
+          }
+          button {
+            margin-top: 1rem;
+          }
+        }
+        .materials-image {
+          width: 70%;
+          margin: 1.5rem auto;
+        }
+    }
+  }
+
+  // Gallery Styles
+  .gallery {
+    .gallery-images {
+      flex-direction: column;
+      align-items: center;
+        .gallery-img {
+          width: 70%;
+          padding: 1.5rem;
+        }
+    }
+  }
+
+  // About Styles
+  .about {
+   .about-container {
+     flex-direction: column;
+     align-items: center;
+      .about-flex {
+        width: 80%;
+      }
+   }
+  }
+
+  // Articles Styles
+  .articles {
+    .articles-container {
+      flex-direction: column;
+      align-items: center;
+        .article-flex {
+          .article-text {
+            text-align: center;
+              button {
+                margin-bottom: 2rem;
+              }
+          }
+        }
+        .article-one {
+          border-bottom: 3px solid $accent;
+        }
+        .article-two {
+          padding: 1rem 0 0 0;
+        }
+        .article-one,
+        .article-two {
+          width: 80%
+        }
+        .article-image-one,
+        .article-image-two {
+          width: 70%;
+        }
+        .article-image-two {
+          img {
+            top: 1.2rem;
+          }
+        }
+    }
+  }
+  // END Home Page Styles
+
+
+  // BLOG PAGE Styles
+  .blog {
+    .blog-container {
+      flex-direction: column;
+      align-items: center;
+        .blog-section {
+          width: 100%;
+          right: 0;
+            .blog-text {
+              width: 82%;
+              right:-2.6rem;
+              padding: 2.5rem 1.5rem 1rem;
+              text-align: justify;
+                h2 {
+                  text-align: center;
+                }
+            }
+            .blog-comments {
+              .comment-text {
+                p {
+                  margin-top: 1rem;
+                }
+              }
+              .comment-two-text {
+                h3 {
+                  margin-top: -0.5rem;
+                  line-height: 2rem;
+                }
+              }
+            }
+            .blog-form {
+              margin-left: 0;
+            }
+        }
+        .aside-section {
+          width: 100%;
+          position: static;
+            .aside-container {
+              margin-top: 1rem;
+              text-align: center;
+                .aside-image {
+                    img {
+                      width: 40%;
+                      height: auto;
+                      position: relative;
+                      bottom: 1rem;
+                    }
+                }
+                .aside-text,
+                .aside-list {
+                  position: static;
+                  width: 100%;
+                }
+                .aside-list {
+                  h3 {
+                    margin: 2rem 0;
+                  }
+                  ul {
+                    list-style: none;
+                    width: 80%;
+                    // padding-left: 0;
+                    padding: 0 0 2rem;
+                  }
+                }
+            }
+        }
+    }
+  }
+  // END Blog Page Styles
+
+  // CCONTACT PAGE Styles
+.contact-page {
+  .contact-container {
+    flex-direction: column;
+      .contact-page-form {
+        width: 100%;
+        top: -13.5rem;
+        right: 0.5rem;
+      }
+      .contact-info {
+        width: 100%;
+          .contact-socials {
+            justify-content: center;
+          }
+          .contact-us {
+            text-align: center;
+          }
+      }
+  }
 }
 
-// header {
-//   h1 {
-//     font-family: $base-font;
-//     width: 25%;
-//     font-size: 22px;
-//     line-height: 24px;
-//     letter-spacing: 1.2px;
-//     padding-top: 20px;
-//     margin-left: 4.5rem;
-//   }
-//   .header-image {
-//     img {
-//       top: 1.5rem;
-//       right: 2rem;
-//     }
-//   }
-// }
+
+
+
+  // END Contact Page Styles
+
+ }
+}  
+
+
+
+
+
