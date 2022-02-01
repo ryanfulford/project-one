@@ -169,6 +169,15 @@
   }
   .nav-mobile {
     display: contents;
+      h3 {
+        font-family: $base-font;
+        width: 25%;
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        letter-spacing: 1.2px;
+        padding-top: 0.75rem;
+        margin-left: 1.5rem;
+      }
   }
 
   // HOME PAGE Styles
@@ -368,11 +377,152 @@
       }
   }
 }
+  // END Contact Page Styles
+
+
+  //*****
+  // Landscape Phones and down
+  //*****
+
+  @media (max-width: 480px) {
+
+  // HOME PAGE Styles
+
+  .articles {
+    .articles-container {
+      .article-image-one {
+        bottom: -0.5rem;
+          img {
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+          }
+      }
+      .article-image-two {
+        left: 0;
+          img {
+            top: -1rem;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            left: 0;
+          }
+      }
+    }
+  }
+
+  .style-text {
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+  // END Home Page Styles
+
+  // BLOG PAGE Styles
+  .blog-header {
+    background-position: top;
+  }
+
+  .blog {
+    .blog-container {
+      .blog-section {
+        .blog-image {
+          img {
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+          }
+        }
+        .blog-text {
+          border-right: none;
+          border-bottom: none;
+          width: 80%;
+            p {
+              text-align: center;
+            }
+        }
+        .blog-comments {
+          padding: 2.5rem 3rem;
+        }
+        form {
+          .form-info {
+            flex-direction: column;
+              .user-info {
+                width: 100%;
+                margin: 1rem 0;
+              }
+          }
+        }
+      }
+      .aside-section {
+        .aside-container {
+          padding: 10rem 2rem 0;
+        }
+      }
+    }
+  }
+  // END Blog Page Styles
+
+  // CONTACT PAGE Styles
+  .contact-header {
+    h1 {
+      padding: 4rem 0;
+    }
+  }
+
+  .contact-page {
+    .contact-container {
+      .contact-page-form {
+        top: -16.5rem;
+        right: 0;
+      }
+      .contact-info {
+        margin: -15rem 0 2rem;
+      }
+    }
+  }
+
+  .contact-form {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 1rem;
+    border: 2px solid $interact;
+  }
+
+  form {
+    .form-info {
+      flex-direction: column;
+        .user-name,
+        .user-email {
+          width: 100%;
+          margin-bottom: 3rem;
+        }
+    }
+  }
+
 
 
 
 
   // END Contact Page Styles
+
+
+
+
+
+
+
+
+  }
+  
+  
+
+  footer {
+    p {
+      font-size: 0.8rem;
+    }
+  }
 
  }
 }  

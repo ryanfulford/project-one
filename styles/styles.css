@@ -964,6 +964,15 @@ footer p {
   .nav-mobile {
     display: contents;
   }
+  .nav-mobile h3 {
+    font-family: "Kumar One";
+    width: 25%;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    letter-spacing: 1.2px;
+    padding-top: 0.75rem;
+    margin-left: 1.5rem;
+  }
 
   .header-image h1 {
     font-family: "Kumar One";
@@ -1146,5 +1155,96 @@ footer p {
   }
   .contact-page .contact-container .contact-info .contact-us {
     text-align: center;
+  }
+}
+@media (max-width: 940px) and (max-width: 768px) and (max-width: 480px) {
+  .articles .articles-container .article-image-one {
+    bottom: -0.5rem;
+  }
+  .articles .articles-container .article-image-one img {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .articles .articles-container .article-image-two {
+    left: 0;
+  }
+  .articles .articles-container .article-image-two img {
+    top: -1rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    left: 0;
+  }
+
+  .style-text p {
+    margin-bottom: 1.5rem;
+  }
+
+  .blog-header {
+    background-position: top;
+  }
+
+  .blog .blog-container .blog-section .blog-image img {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .blog .blog-container .blog-section .blog-text {
+    border-right: none;
+    border-bottom: none;
+    width: 80%;
+  }
+  .blog .blog-container .blog-section .blog-text p {
+    text-align: center;
+  }
+  .blog .blog-container .blog-section .blog-comments {
+    padding: 2.5rem 3rem;
+  }
+  .blog .blog-container .blog-section form .form-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blog .blog-container .blog-section form .form-info .user-info {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .blog .blog-container .aside-section .aside-container {
+    padding: 10rem 2rem 0;
+  }
+
+  .contact-header h1 {
+    padding: 4rem 0;
+  }
+
+  .contact-page .contact-container .contact-page-form {
+    top: -16.5rem;
+    right: 0;
+  }
+  .contact-page .contact-container .contact-info {
+    margin: -15rem 0 2rem;
+  }
+
+  .contact-form {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 1rem;
+    border: 2px solid #065635;
+  }
+
+  form .form-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  form .form-info .user-name,
+form .form-info .user-email {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 940px) and (max-width: 768px) {
+  footer p {
+    font-size: 0.8rem;
   }
 }
