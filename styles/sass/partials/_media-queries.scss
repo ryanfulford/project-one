@@ -86,22 +86,70 @@
 // END Home Page Styles
 
 // BLOG PAGE Styles
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.blog {
+  .blog-container {
+    .blog-section {
+      .blog-image {
+        width: 80%;
+        right: -2.6rem;
+      }
+      .blog-text {
+        width: 29.7rem;
+          h2 {
+            font-size: 1.2rem;
+            line-height: 2rem;
+          }
+      }
+      .blog-comments {
+        h2 {
+          font-size: 1rem;
+          }
+        .comment-one-text {
+          margin-left: 1rem;
+            h3 {
+              line-height: 2rem;
+              margin-top: -0.5rem;
+            }
+        }
+        .comment-two-image {
+          width: 76%;
+        }
+        .comment-two-text {
+          margin-left: 3.8rem;
+          right: 2.9rem;
+        }
+      }
+    }
+    .aside-section {
+      left: 2.4rem;
+        .aside-container {
+          padding: 17rem 2rem 0rem;
+            .aside-image {
+              width: 94%;
+              height: 12rem;
+            }
+            .aside-text,
+            .aside-list {
+              bottom: 5rem;
+                h3 {
+                  font-size: 1rem;
+                  line-height: 2rem;
+                }
+            }
+        }
+    }
+  }
+}
 // END Blog Page Styles
+
+
+// CONTACT PAGE Styles
+
+
+
+
+
+// END Contact Page Styles
 
 
 

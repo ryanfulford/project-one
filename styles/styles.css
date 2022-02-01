@@ -897,6 +897,54 @@ footer p {
   .style .style-text h2 {
     font-size: 1.2rem;
   }
+
+  .blog .blog-container .blog-section .blog-image {
+    width: 80%;
+    right: -2.6rem;
+  }
+  .blog .blog-container .blog-section .blog-text {
+    width: 29.7rem;
+  }
+  .blog .blog-container .blog-section .blog-text h2 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .blog .blog-container .blog-section .blog-comments h2 {
+    font-size: 1rem;
+  }
+  .blog .blog-container .blog-section .blog-comments .comment-one-text {
+    margin-left: 1rem;
+  }
+  .blog .blog-container .blog-section .blog-comments .comment-one-text h3 {
+    line-height: 2rem;
+    margin-top: -0.5rem;
+  }
+  .blog .blog-container .blog-section .blog-comments .comment-two-image {
+    width: 76%;
+  }
+  .blog .blog-container .blog-section .blog-comments .comment-two-text {
+    margin-left: 3.8rem;
+    right: 2.9rem;
+  }
+  .blog .blog-container .aside-section {
+    left: 2.4rem;
+  }
+  .blog .blog-container .aside-section .aside-container {
+    padding: 17rem 2rem 0rem;
+  }
+  .blog .blog-container .aside-section .aside-container .aside-image {
+    width: 94%;
+    height: 12rem;
+  }
+  .blog .blog-container .aside-section .aside-container .aside-text,
+.blog .blog-container .aside-section .aside-container .aside-list {
+    bottom: 5rem;
+  }
+  .blog .blog-container .aside-section .aside-container .aside-text h3,
+.blog .blog-container .aside-section .aside-container .aside-list h3 {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
 }
 @media (max-width: 940px) and (max-width: 768px) {
   .nav-desktop {
